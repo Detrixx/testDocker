@@ -19,6 +19,7 @@ namespace MojeAplikace.Controllers
             _context = context;
         }
 
+
         // GET: sachistas
         public async Task<IActionResult> Index()
         {
